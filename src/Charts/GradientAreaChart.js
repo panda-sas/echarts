@@ -197,7 +197,7 @@ const GradientAreaChart = () => {
       };
     
       return (
-        <div className="App">
+        <div className="Gradient">
           <ReactECharts option={option} />
     
         </div>

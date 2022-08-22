@@ -17,6 +17,15 @@ const PieChart = () => {
     tooltip: {
       trigger: 'item'
     },
+    toolbox: {
+        
+        textStyle: {
+            color: '#ccc'
+          },
+        feature: {
+          saveAsImage: {},
+        },
+      },
     visualMap: {
       show: false,
       min: 80,
